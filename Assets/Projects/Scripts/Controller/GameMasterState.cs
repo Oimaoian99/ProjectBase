@@ -6,7 +6,8 @@ public enum GameState
 }
 public enum ScreenState
 {
-    None}
+    None
+}
 public enum PopupState
 {
     None}

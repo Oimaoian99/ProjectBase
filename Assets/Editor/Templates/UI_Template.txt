@@ -1,0 +1,22 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class {CLASS_NAME} : {BASE_CLASS}
+{
+    public override void Initialize(UiController _uiController)
+    {
+        base.Initialize(_uiController);
+        {STATE_TYPE} = {STATE_ENUM}.{CLASS_NAME};
+    }
+
+    public override void {SHOW_METHOD}()
+    {
+        base.{SHOW_METHOD}();
+    }
+
+    public override void Hide()
+    {
+        base.Hide();
+    }
+}
